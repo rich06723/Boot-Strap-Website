@@ -19,24 +19,13 @@
       <a class="nav-link" href="Help.html"> Help </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="Contact.html"> Contact <span class="sr-only">(current)</span> </a>
+        <a class="nav-link" href="Contact.html"> Contact </a>
     </li>
         </ul>
     </nav>
+    
+<img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center=Toronto,ON,CAN&zoom=13&size=600x300&maptype=roadmap&key=AIzaSyCi4c9sSG41EU8l3AzabJ2ZAYFXEJebj44" alt="Google Static Maps">
 
-   <div id="map" style="witdh:100%;height:500px"></div>
-
-   <script>
-    function myMap() {
-        var mapCanvas = document.getElementById("map");
-        var mapOptions = {
-            center: new google.maps.LatLng(51.5, -0.2),
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-    }
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
 <form>
     <div class="form-group">
